@@ -16,7 +16,7 @@
 	var character = getParameter('name');
 
 	// Fetch the JSON file
-	fetch('/github/data/' + character + '.json')
+	fetch('/data/' + character + '.json')
 
 	.then( response => {
 		if (!response.ok)
