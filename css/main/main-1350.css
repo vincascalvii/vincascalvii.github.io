@@ -1,13 +1,17 @@
 /* ==========================================================================
 
-	RESPONSIVE CSS ( 992px - 768px )
+	RESPONSIVE CSS ( 1350px - 993px )
 
 ========================================================================== */
 
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 1350px) and (min-width: 993px) {
+
+	body {
+		font-size: 1.6rem;
+	}
 
 	.container {
-		width: 700px;
+		width: 900px;
 	}
 
 }

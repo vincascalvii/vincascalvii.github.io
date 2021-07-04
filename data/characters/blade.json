@@ -1,0 +1,60 @@
+[{
+	"name" : "Blade",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Spirit Blade",
+
+			"details" : "Every 3rd basic attack of Blade deals additional physical damage (scaling with physical power) and spawns a Spirit Blade on top of the enemy after 1 second.<br><br>Spirit Blade will stay for 10 seconds. Blade can pick up a Spirit Blade to gain increased movement speed that decays over 2 seconds, and allow a percentage of his next basic attack damage to convert to true damage instead.<br><br>Blade can store a stack for each Spirit Blade he picks up (maximum 5 Spirit Blades)."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Condemn",
+
+			"details" : "Blade’s next basic attack within 5 seconds deals additional physical damage (scaling with physical power).<br><br>When Blade kills an enemy with Condemn, half of the mana cost will be refunded and the cooldowns will be reduced by half.<br><br>In addition, a Spirit Blade will spawn on top of that unit."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Blade Work",
+
+			"details" : "Blade summons a Spirit Blade in a target location. Within 10 seconds, Blade gains increased movement speed towards all the present Spirit Blades."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Blade Surge",
+
+			"details" : "Blade blinks to a Spirit Blade and gains increased attack speed for the next 3 basic attacks."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Blade Storm",
+
+			"details" : "Blade channels for 1 second, then dash to a target location, dealing physical damage (scaling with physical power) to all enemies within the path.<br><br>In addition, all the Spirit Blades will return to him during the dash, dealing physical damage (scaling with physical power) to all enemies in the path and greatly slowing them for 1 second."
+
+		}
+
+	}
+
+}]

@@ -27,28 +27,33 @@
 	<meta name="author" content="Calvin Lam">
 
 	<!-- FONTS -->
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="/css/others/fonts.css?version1">
+	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/others/fonts.css?version1">
+
+	<!-- SPLIDE -->
+	<link rel="stylesheet" type="text/css" href="css/others/splide-core.min.css">
 
 	<!-- MAIN CSS ( prioritise file loading based on screen width ) -->
-	<link rel="stylesheet" type="text/css" href="/css/main/desktop.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px) and (min-width: 993px)" href="/css/main/laptop.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px) and (min-width: 768px)" href="/css/main/tablet.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="/css/main/mobile.css?version1">
+	<link rel="stylesheet" type="text/css" href="css/main/main.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1600px)" href="css/main/main-1600.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px)" href="css/main/main-1350.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px)" href="css/main/main-992.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="css/main/main-767.css?version1">
 
 	<!-- HOME PAGE CSS -->
-	<link rel="stylesheet" type="text/css" href="/css/home/desktop.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px) and (min-width: 993px)" href="/css/home/laptop.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px) and (min-width: 768px)" href="/css/home/tablet.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="/css/home/mobile.css?version1">
+	<link rel="stylesheet" type="text/css" href="css/home/home.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1600px)" href="css/home/home-1600.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px)" href="css/home/home-1350.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px)" href="css/home/home-992.css?version1">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="css/home/home-767.css?version1">
 
 	<!-- FAVICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
 
     <!-- FACEBOOK OPENGRAPH -->
     <meta property="og:site_name" content="Calvin Lam">
@@ -85,14 +90,16 @@
 
 
 	<!-- HEADER -->
-	<header class="header flex">
+	<header class="header">
+		<div class="container flex">
 
-		<a href="/" class="logo" aria-label="Header return to home page">Calvin Lam.</a>
+			<a href="" class="logo" aria-label="Header return to home page">Calvin.</a>
 
-		<div class="trigger">
-			<i class="fas fa-ellipsis-v icon"></i>
+			<div class="trigger">
+				<i class="fas fa-ellipsis-v icon"></i>
+			</div>
+
 		</div>
-
 	</header>
 
 
@@ -101,34 +108,276 @@
 
 		<!-- HERO BANNER -->
 		<section class="hero">
-			<div class="container flex">
+			<div class="container">
 				
-				<div class="left">
-					<h1 class="title">Calvin<br>Lam</h1>
-					<span class="border"></span>
-					<p>Web<br>Designer<br>Developer</p>
-				</div>
+				<h1 class="title">Hi, I'm<span>Calvin.</span></h1>
+				<span class="border"></span>
+				<p class="occupation flex">
+					Developer
+					<i class="fas fa-circle dot"></i>
+					Designer
+					<i class="fas fa-circle dot"></i>
+					Artist
+				</p>
 
-				<div class="right flex">
-					<a href="/story" class="block" aria-label="Navigate to Story">Story</a>
-					<a href="/characters" class="block" aria-label="Navigate to Characters">Characters</a>
-					<a href="/pokemon" class="block" aria-label="Navigate to Pokémon">Pokémon</a>
-					<a href="/websites" class="block" aria-label="Navigate to Websites">Websites</a>
+				<picture>
+					<source data-srcset="" type="image/webp">
+					<img data-src="" src="" class="lazyload" alt="">
+				</picture>
+
+				<div class="explore text-center">
+					<p class="text">Explore</p>
+					<a href="#web-design" class="border" aria-label="Scroll down to Web Design">
+						<i class="fas fa-chevron-down arrow"></i>
+					</a>
+					<div class="line"></div>
 				</div>
 
 			</div>
 		</section>
 
+
+
+		<section id="web-design" class="section relative web-design">
+			<div class="container">
+				 
+				<p class="sub-heading">
+					<span class="number">01.</span>
+					<span class="text">Projects</span>
+				</p>
+				<h2 class="heading">Web Design.</h2>
+				<div class="heading-bar"></div>
+
+				<div class="content">
+					<p>A website is the place where people can know more about you and your business. In my projects, I focus on the simplest user interface to bring the best user experience possible for the visitors. I love creating things that allow the users to find what they are looking for straight away.</p>
+					<p>Instead of words alone, how about we dive into the works that I've done?</p>
+				</div>
+
+				<div class="splide">
+					<div class="splide__track">
+						<div class="splide__list">
+							<div class="splide__slide block">
+								<h3 class="name">Car Marketplace</h3>
+							</div>
+							<div class="splide__slide block">
+								<h3 class="name">Finance &amp; Insurance</h3>
+							</div>
+							<div class="splide__slide block">
+								<h3 class="name">Online Magazine</h3>
+							</div>
+							<div class="splide__slide block">
+								<h3 class="name">Restaurant</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="/projects" class="button" aria-label="Explore Pokémon">View all projects</a>
+
+				<div class="explore text-center">
+					<a href="#pokemon" class="border" aria-label="Scroll down to Pokémon">
+						<i class="fas fa-chevron-down arrow"></i>
+					</a>
+					<div class="line"></div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+		<section id="pokemon" class="section relative pokemon">
+			<div class="container flex">
+				
+				<div class="content">
+					<p class="sub-heading">
+						<span class="number">02.</span>
+						<span class="text">Pokémon</span>
+					</p>
+					<h2 class="heading">Storm &amp; Quake.</h2>
+					<div class="heading-bar"></div>
+					<p>Pokémon has been one of my most favourite franchise throughout my childhood and it's something that I, as a designer, must give it a go. Adventures in Pokémon Storm and Pokémon Quake will take place in a new region named Newzar.</p>
+					<p>Rich in nature and with powerful trainers across the land, Newzar is a region of many tales and legends. Please feel free to explore the designs of both Pokémon, trainers and Gym leaders.</p>
+					<a href="/pokemon" class="button" aria-label="Explore Pokémon">Explore the region</a>
+				</div>
+
+			</div>
+
+			<div class="explore text-center">
+				<a href="#story" class="border" aria-label="Scroll down to Story">
+					<i class="fas fa-chevron-down arrow"></i>
+				</a>
+				<div class="line"></div>
+			</div>
+
+		</section>
+
+
+		<section id="story" class="section relative story">
+			<div class="container text-center">
+				
+				<p class="sub-heading">
+					<span class="number">03.</span>
+					<span class="text">Story &amp; Characters</span>
+				</p>
+				<h2 class="heading">Freedom Cry.</h2>
+				<div class="heading-bar"></div>
+
+				<div class="content">
+					<p>Freedom Cry is a fictional story that takes place in Valhalla, a beautiful world with many fantasy and mythological creatures. The story focuses on the affairs between different kingdoms and races.</p>
+					<p>This project has been in my mind since high school and has gone through countless of reworks as time goes by. Please feel free to enjoy the beautiful fantasy through the story or the character designs.</p>
+				</div>
+
+				<div class="buttons-container">
+					<a href="/story" class="button button-story" aria-label="Explore the story">Read the story</a>
+					<a href="/characters" class="button button-characters" aria-label="Explore the characters">View the characters</a>
+				</div>
+
+				<div class="explore text-center">
+					<a href="#blog" class="border" aria-label="Scroll down to Blog">
+						<i class="fas fa-chevron-down arrow"></i>
+					</a>
+					<div class="line"></div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+		<section id="blog" class="section relative blog">
+			<div class="container text-center">
+				
+				<p class="sub-heading">
+					<span class="number">04.</span>
+					<span class="text">Articles</span>
+				</p>
+				<h2 class="heading">
+					<span class="heading-bar heading-bar-left"></span>
+					<span>Blog.</span>
+					<span class="heading-bar heading-bar-right"></span>
+				</h2>
+
+				<div class="content">
+					<h3 class="category text-left">Coding</h3>
+					<ul class="list list-coding text-left">
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+					</ul>
+
+					<h3 class="category text-left">Drawing</h3>
+					<ul class="list list-drawing text-left">
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+					</ul>
+
+					<h3 class="category text-left">Gaming</h3>
+					<ul class="list list-gaming text-left">
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="" aria-label="">
+								<i class="fas fa-box icon"></i>
+								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
+								<i class="fas fa-chevron-right arrow float-right"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="explore text-center">
+					<a href="#contact" class="border" aria-label="Scroll down to Contact">
+						<i class="fas fa-chevron-down arrow"></i>
+					</a>
+					<div class="line"></div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<footer id="contact" class="section contact">
+			<div class="container text-center">
+				
+				<p class="sub-heading">
+					<span class="text">Don't be a stranger!</span>
+				</p>
+				<h2 class="heading">Feel free to contact me.</h2>
+
+				<a href="" class="link" aria-label="Go to Instagram page">
+					<svg width="0" height="0">
+						<radialGradient id="instagram-color" r="150%" cx="30%" cy="107%">
+				    		<stop stop-color="#fdf497" offset="0" />
+				    		<stop stop-color="#fdf497" offset="0.05" />
+						    <stop stop-color="#fd5949" offset="0.45" />
+						    <stop stop-color="#d6249f" offset="0.6" />
+						    <stop stop-color="#285AEB" offset="0.9" />
+				  		</radialGradient>
+					</svg>
+					<i class="fab fa-instagram icon"></i>
+				</a>
+
+				<p class="copyright">Copyright &copy; <span id="copyright-year"></span> Calvin Lam</p>
+
+			</div>
+		</footer>
+
 	</main>
 
 
 	<!-- FONTAWESOME / ICONS -->
-	<script src="/js/fontawesome/brands.min.js" defer></script>
-	<script src="/js/fontawesome/solid.min.js" defer></script>
-	<script src="/js/fontawesome/fontawesome.min.js" defer></script>
+	<script src="js/fontawesome/brands.min.js" defer></script>
+	<script src="js/fontawesome/solid.min.js" defer></script>
+	<script src="js/fontawesome/fontawesome.min.js" defer></script>
 
 	<!-- LAZYSIZES / LAZY LOADING -->
-	<script type="text/javascript" src="/js/lazysizes/lazysizes.min.js"></script>
+	<script type="text/javascript" src="js/lazysizes/lazysizes.min.js"></script>
+
+	<!-- SPLIDE -->
+	<script type="text/javascript" src="js/splide/splide.min.js"></script>
+
+	<!-- CUSTOM -->
+	<script type="text/javascript" src="js/general/home.js"></script>
+
+	<script type="text/javascript">
+		document.getElementById('copyright-year').innerHTML = new Date().getFullYear();
+	</script>
 
 </body>
 
