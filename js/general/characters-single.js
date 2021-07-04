@@ -13,44 +13,50 @@
 (function() {
 
 	// Get the character
-	var character = getParameter('name');
+	var character = getParameter('name').toLowerCase();
 
-	// Fetch the JSON file
-	fetch('/data/characters/' + character + '.json')
+	// If the value is not empty or null
+	if ( character != '' && character != null ) {
 
-	.then( response => {
-		if (!response.ok)
-			throw new Error("HTTP error " + response.status);
-       
-        return response.json();
-    })
+		// Fetch the JSON file
+		fetch('/data/characters/' + character + '.json')
 
-	.then( data => {
+		.then( response => {
+			if (!response.ok)
+				throw new Error("HTTP error " + response.status);
+	       
+	        return response.json();
+	    })
 
-		// Populate the name
-		var name = data[0]['name'];
-		document.querySelector('.item.name').innerHTML = name;
-		document.querySelector('.title.name').innerHTML = name;
+		.then( data => {
 
-		// Populate the lore
-		var lore = data[0]['lore'];
-		document.querySelector('.lore').innerHTML = lore;
+			// Populate the name
+			var name = data[0]['name'];
+			document.querySelector('.item.name').innerHTML = name;
+			document.querySelector('.title.name').innerHTML = name;
+			document.querySelector('.link.name').href += '?name=' + name.toLowerCase();
 
-		// Populate the abilities
-		for ( var i = 1 ; i < 6; i++ ) {
-			var abilityType = data[0]['ability'][i]['type'];
-			var abilityName = data[0]['ability'][i]['name'];
-			var abilityDetails = data[0]['ability'][i]['details'];
-			document.querySelector('.ability .info-' + i + ' .type').innerHTML = abilityType;
-			document.querySelector('.ability .info-' + i + ' .name').innerHTML = abilityName;
-			document.querySelector('.ability .info-' + i + ' .details').innerHTML = abilityDetails;
-		}
+			// Populate the lore
+			var lore = data[0]['lore'];
+			document.querySelector('.lore').innerHTML = lore;
 
-	})
-	
-	.catch( function(error) {
-		console.log('Fetch error: ', error);
-	});
+			// Populate the abilities
+			for ( var i = 1 ; i < 6; i++ ) {
+				var abilityType = data[0]['ability'][i]['type'];
+				var abilityName = data[0]['ability'][i]['name'];
+				var abilityDetails = data[0]['ability'][i]['details'];
+				document.querySelector('.ability .info-' + i + ' .type').innerHTML = abilityType;
+				document.querySelector('.ability .info-' + i + ' .name').innerHTML = abilityName;
+				document.querySelector('.ability .info-' + i + ' .details').innerHTML = abilityDetails;
+			}
+
+		})
+		
+		.catch( function(error) {
+			console.log('Fetch error: ', error);
+		});
+
+	}
 
 })();
 
