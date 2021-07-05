@@ -1,0 +1,60 @@
+[{
+	"name" : "Blood",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Blood Pool",
+
+			"details" : "When Blood kills an enemy with any of his abilities, he increases his maximum health by 4 permanently. Large minions and monsters will increase his maximum health by 8 and enemy Hero will increase his maximum health by 16 instead.<br><br>Blood uses his health to cast abilities instead of mana."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Blood Drain",
+
+			"details" : "In sword mode, Blood stabs in a target direction, dealing magical damage (scaling with magical power) to all enemies hit and healing himself (scaling with magical power) plus a percentage of his missing health.<br><br>In staff mode, Blood drains the blood from a target enemy Hero, dealing magical damage (scaling with magical power) over 3 seconds and heals himself (scaling with magical power) each 0.5 second over the same duration.<br><br>In addition, Blood also gains increased movement speed during the drain."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Blood Sword / Blood Staff",
+
+			"details" : "Blood shapeshifts his weapon into either a sword or a staff, gaining different abilities.<br><br>When switching to a sword, his basic attack has shorter range but deals additional magical damage (scaling with magical power). Moreover, his first basic attack within 6 seconds after shapeshifting will greatly slow the target for 0.5 seconds.<br><br>When switching to a staff, his basic attack gains additional range. Moreover, his first basic attack within 6 seconds after shapeshifting deals additional magical damage (scaling with magical power) and reduces the target’s magic resistance for 3 seconds."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Death Grasp",
+
+			"details" : "In sword mode, Blood dashes in a target direction and sends out a claw, briefly pulling the first enemy hit to him and dealing magical damage (scaling with magical power).<br><br>In staff mode, Blood summons a claw in a target direction, pulling all enemies within the path towards him and dealing magical damage (scaling with magical power)."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Night Feast",
+
+			"details" : "In Sword mode, Blood channels for 1 second then sends out a number of Blood Bat each second for the next 6 seconds. Each Blood Bat will fly to a nearby enemy, dealing magical damage (scaling with magical power) and heals himself (scaling with magical power).<br><br>In Staff mode, Blood channels for 1 second then sends out a number of Blood Bats each second for the next 6 seconds. Each Blood Bat will fly to a nearby enemy, dealing magical damage (scaling with magical power) to all nearby enemies and fearing them for 0.5 seconds.<br><br>Blood Bat will prioritise enemy Hero and closer enemy. The number of Blood Bats will increase based on this ability&rsquo;s level."
+
+		}
+
+	}
+
+}]
