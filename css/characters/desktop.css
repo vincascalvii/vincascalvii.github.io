@@ -132,9 +132,10 @@
 	top: 120px;
 	width: 25px;
 	height: 25px;
-	display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	background-color: #fff;
-	padding: 3px;
 	border: 3px solid transparent;
 	border-radius: 50%;
 	transition: .2s ease-in-out;
