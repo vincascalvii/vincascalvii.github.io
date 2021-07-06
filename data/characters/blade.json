@@ -11,7 +11,7 @@
 
 			"name" : "Spirit Blade",
 
-			"details" : "Every 3rd basic attack of Blade deals additional physical damage (scaling with physical power) and a Spirit Blade will spawn where Blade is after 1 second.<br><br>Spirit Blade will stay for 10 seconds. Blade can pick up a Spirit Blade to gain increased movement speed that decays over 2 seconds, and converts a small percentage of his next basic attack damage to true damage.<br><br>It is possible to pick up multiple Spirit Blades, but Blade can only use one for each basic attack (maximum 5 Spirit Blades)."
+			"details" : "Every 3rd basic attack of Blade deals additional physical damage (scaling with physical power) and a Spirit Blade will spawn where Blade is.<br><br>Spirit Blade will stay for a while. Blade can pick up a Spirit Blade to gain increased movement speed that decays over time, and converts a small percentage of his next basic attack damage to true damage.<br><br>It is possible to pick up multiple Spirit Blades, but Blade can only use one for each basic attack (maximum 5 Spirit Blades)."
 
 		},
 
@@ -21,7 +21,7 @@
 
 			"name" : "Condemn",
 
-			"details" : "Blade&rsquo;s next basic attack within 5 seconds deals additional physical damage (scaling with physical power).<br><br>When Blade kills an enemy with Condemn, half of the mana cost will be refunded and the cooldowns will be reduced by half.<br><br>In addition, a Spirit Blade will spawn on top of that unit."
+			"details" : "Blade&rsquo;s next basic attack within a few seconds deals additional physical damage (scaling with physical power).<br><br>When Blade kills an enemy with Condemn, half of the mana cost and cooldowns will be refunded.<br><br>In addition, a Spirit Blade will spawn on top of that unit."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Blade Work",
 
-			"details" : "Blade summons a Spirit Blade in a target location. Within 10 seconds, Blade gains increased movement speed towards all the present Spirit Blades."
+			"details" : "Blade summons a Spirit Blade in a target location. Within a short while, Blade gains increased movement speed towards all the present Spirit Blades."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Blade Surge",
 
-			"details" : "Blade dashes to a Spirit Blade. Within 3 seconds, Blade's next basic attack will dash to the target enemy, dealing physical damage (scaling with physical power) and granting himself increased attack speed for the next 3 basic attacks.<br><br>The attack speed boost lasts for 5 seconds or until all 3 basic attacks are used."
+			"details" : "Blade dashes to a Spirit Blade. Within a few seconds, Blade's next basic attack will dash to the target enemy, dealing physical damage (scaling with physical power) and granting himself increased attack speed for the next 3 basic attacks.<br><br>The attack speed boost lasts for a short while or until all 3 basic attacks are used."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Blade Storm",
 
-			"details" : "Blade channels for 0.5 seconds, then dash to a target location, dealing physical damage (scaling with physical power) to all enemies within the path.<br><br>In addition, all the Spirit Blades will return to him during the dash, dealing physical damage (scaling with physical power) to all enemies in the path and greatly slowing them for 1 second."
+			"details" : "Blade briefly channels then dashes to a target location, dealing physical damage (scaling with physical power) to all enemies within the path.<br><br>In addition, all the Spirit Blades will return to him during the dash, dealing physical damage (scaling with physical power) to all enemies in the path and greatly slowing them for a very short duration."
 
 		}
 

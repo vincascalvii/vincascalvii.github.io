@@ -1,0 +1,60 @@
+[{
+	"name" : "War",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Warborne",
+
+			"details" : "Every short while, War’s next basic attack deals additional physical damage (scaling with physical power) plus the target’s current health and heals himself based on the damage dealt."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Decimate",
+
+			"details" : "War swings his glaive up in a target direction, dealing physical damage (scaling with physical power), knocking up all enemies hit and slam them down, dealing physical damage (scaling with physical power).<br><br>Enemies hit by the first strike will be briefly knocked up in the air."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Glaive Weave",
+
+			"details" : "War swings his glaive in front of him, blocking all projectiles from a target direct, except for ultimate and turret, while dealing physical damage (scaling with physical power) to all enemies in the front."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Flaming Wave",
+
+			"details" : "War enters a charging state when he drags his glaive in flame, granting himself increased movement speed during the charge.<br><br>When the charge ends, War will dash forward and swing his glaive upward to send out a flaming strike vertically, dealing physical damage (scaling with physical power) to all enemies hit and slowing them for a short duration.<br><br>War can choose the end the charge early. The damage and slow duration are based on the time War takes to charge."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "God of War",
+
+			"details" : "War jumps up then slams down to a target area and creates an arena around him. Inside the arena, he gains increased attack damage and life steal.<br><br>Enemies who try to walk out of the arena will take physical damage (scaling with physical power) and become greatly slowed for a short duration.<br><br>Casting Flaming Wave toward the edge of the arena will spread the flame around in both directions until they touch each other, dealing the same damage to all nearby enemies. Enemies will only be damaged once each cast."
+
+		}
+
+	}
+
+}]

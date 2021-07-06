@@ -11,7 +11,7 @@
 
 			"name" : "Dragon Fury",
 
-			"details" : "Every time Dragon basic attacks or uses Dragon Spear on an enemy Hero, he receives a stack that boosts attack speed for 4 seconds. At 5 stacks, Dragon&rsquo;s basic attack or Dragon Spear creates lightning and deals additional magical damage (scaling with magical power) to the target and nearby enemies.<br><br>In Rider Mode, Dragon gains increased attack range and summons a lightning bolt each basic attack, dealing additional magical damage (scaling with magical power)."
+			"details" : "Every time Dragon basic attacks or uses Dragon Spear on an enemy Hero, he receives a stack that boosts attack speed. At 5 stacks, Dragon&rsquo;s basic attack or Dragon Spear creates lightning and deals additional magical damage (scaling with magical power) to the target and nearby enemies.<br><br>In Rider Mode, Dragon gains increased attack range and summons a lightning bolt each basic attack, dealing additional magical damage (scaling with magical power)."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Swift Steps",
 
-			"details" : "Dragon gains increased movement speed that decays over 3 seconds. Using this ability will remove all movement speed slow debuffs currently on him.<br><br>In Rider Mode, Dragon flies up and gains the ability to go over terrains. Using the ability again to land down, dealing physical damage (scaling with physical power) to all enemies in a radius and knocking them back."
+			"details" : "Dragon gains increased movement speed that decays over a short duration. Using this ability will remove all movement speed slow debuffs currently on him.<br><br>In Rider Mode, Dragon flies up and gains the ability to go over terrains. Using the ability again to land down, dealing physical damage (scaling with physical power) to all enemies in a radius and knocking them back."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Reaping Spear",
 
-			"details" : "Dragon leaps to a target and thrusts his spear, dealing physical damage (scaling with physical power and movement speed) and slowing the target for 1.5 seconds.<br><br>In Rider Mode, Dragon sweeps its tail in a cone-shaped area, dealing physical damage (scaling with physical power) to all enemies hit and slowing them down for 1.5 seconds."
+			"details" : "Dragon leaps to a target and thrusts his spear, dealing physical damage (scaling with physical power and movement speed) and slowing the target for a short duration.<br><br>In Rider Mode, Dragon sweeps its tail in a cone-shaped area, dealing physical damage (scaling with physical power) to all enemies hit and slowing them down for a short duration."
 
 		},
 
