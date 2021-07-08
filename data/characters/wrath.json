@@ -1,0 +1,60 @@
+[{
+	"name" : "Wrath",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Undying Rage",
+
+			"details" : "Wrath gains a stack of Undying Rage each time he basic attacks an enemy (maximum 10 stacks). In addition, when Wrath falls below a certain threshold of health, he will recover a percentage of his health over a duration.<br><br>The number of stacks will affect the amount of health recovered and Wrath's other abilities."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Fearless",
+
+			"details" : "Wrath leaps up and lands down in a target direction, dealing physical damage (scaling with physical power) to all enemies hit and briefly slowing them.<br><br>At maximum stacks of Undying Rage, Fearless will deal more damage and knock up the enemies instead."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Asura&rsquo;s Wrath",
+
+			"details" : "Wrath gains a number of Undying Rage stacks and increases his attack speed for 6 seconds. If the number of stacks are already maxed out, Wrath gains increased life steal and attack speed instead."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Shear",
+
+			"details" : "Wrath reaps the enemy, dealing physical damage (scaling with physical power). At maximum stacks of Undying Rage, Shear will deal true damage instead."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Unforgivable",
+
+			"details" : "On first cast, Wrath breaks out of any crowd control he is currently on, marks all enemy Heroes who recently damage him for a duration and gains increased movement speed towards them.<br><br>On second cast, Wrath leaps at a nearby target enemy Hero whom he has marked, dealing a percentage of the enemy's missing health as physical damage (scaling with physical power).<br><br>At maximum stacks of Undying Rage, Wrath also gains immunity to movement speed reduction."
+
+		}
+
+	}
+
+}]

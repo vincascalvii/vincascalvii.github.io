@@ -11,7 +11,7 @@
 
 			"name" : "Warborne",
 
-			"details" : "Every short while, War’s next basic attack deals additional physical damage (scaling with physical power) plus the target’s current health and heals himself based on the damage dealt."
+			"details" : "Each time War takes or deals damage to enemy Hero, he gains a stack of Warborne for a short duration. Each stack of Warborne grants War increased life steal (maximum 10 stacks)."
 
 		},
 
@@ -21,7 +21,7 @@
 
 			"name" : "Decimate",
 
-			"details" : "War swings his glaive up in a target direction, dealing physical damage (scaling with physical power), knocking up all enemies hit and slam them down, dealing physical damage (scaling with physical power).<br><br>Enemies hit by the first strike will be briefly knocked up in the air."
+			"details" : "War swings down his glaive in a target direction, dealing physical damage (scaling with physical power) to all enemies hit.<br><br>At maximum stacks of Warborne, Decimate will send out a flaming wave in the same target direction instead, reaching further and dealing more damage."
 
 		},
 
@@ -29,9 +29,9 @@
 
 			"type" : "Second Ability",
 
-			"name" : "Glaive Weave",
+			"name" : "Whirlwind",
 
-			"details" : "War swings his glaive in front of him, blocking all projectiles from a target direct, except for ultimate and turret, while dealing physical damage (scaling with physical power) to all enemies in the front."
+			"details" : "War swings his glaive in front of him, blocking all projectiles from a target direction, except for ultimate and turret. At maximum stacks of Warborne, War will weave his glaive around, blocking all projectiles from all directions instead while dealing physical damage (scaling with physical power)."
 
 		},
 
@@ -39,9 +39,9 @@
 
 			"type" : "Third Ability",
 
-			"name" : "Flaming Wave",
+			"name" : "Scorching Edge",
 
-			"details" : "War enters a charging state when he drags his glaive in flame, granting himself increased movement speed during the charge.<br><br>When the charge ends, War will dash forward and swing his glaive upward to send out a flaming strike vertically, dealing physical damage (scaling with physical power) to all enemies hit and slowing them for a short duration.<br><br>War can choose the end the charge early. The damage and slow duration are based on the time War takes to charge."
+			"details" : "War enters a charging state when he drags his glaive in flame, granting himself increased movement speed during the charge.War can recast again to swing his glaive upward, dealing physical damage (scaling with physical power) to all enemies hit in a line and briefly slowing them.<br><br>If War charges for more than a few seconds, he will deal more damage and will knock the enemies up before slowing them.<br>At maximum stacks of Warborne, War does not need to charge and will immediately cast Scorching Edge."
 
 		},
 
@@ -49,9 +49,9 @@
 
 			"type" : "Ultimate",
 
-			"name" : "God of War",
+			"name" : "Arena of Blood",
 
-			"details" : "War jumps up then slams down to a target area and creates an arena around him. Inside the arena, he gains increased attack damage and life steal.<br><br>Enemies who try to walk out of the arena will take physical damage (scaling with physical power) and become greatly slowed for a short duration.<br><br>Casting Flaming Wave toward the edge of the arena will spread the flame around in both directions until they touch each other, dealing the same damage to all nearby enemies. Enemies will only be damaged once each cast."
+			"details" : "War picks a target enemy Hero, then slams down his glaive and creates an arena around him. Inside the arena, he instantly gains maximum stacks of Warborne.<br><br>Enemy heroes who try to walk out or into the arena will take physical damage (scaling with physical power) and become greatly slowed for a short duration."
 
 		}
 

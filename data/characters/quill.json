@@ -1,0 +1,60 @@
+[{
+	"name" : "Quill",
+
+	"lore" : "Coming soon.",
+
+	"ability" : {
+
+		"1" : {
+
+			"type" : "Passive",
+
+			"name" : "Nature's Wrath",
+
+			"details" : "When Quill basic attacks or hits enemy Hero with Quick Release 4 times, Quill will send an extra arrow, dealing physical damage (scaling with physical power) and creating a field around the target.<br><br>Quill gains increased attack speed and movement speed while on the field."
+
+		},
+
+		"2" : {
+
+			"type" : "First Ability",
+
+			"name" : "Quick Release",
+
+			"details" : "Quill dashes in a target direction and shoots an arrow to a nearby enemy, dealing physical damage (scaling with physical power). This arrow counts as basic attack and prioritises enemy Hero."
+
+		},
+
+		"3" : {
+
+			"type" : "Second Ability",
+
+			"name" : "Volley",
+
+			"details" : "Quill gains the ability to shoot 3 arrows instead of 1 on her basic attack and Quick Release, dealing physical damage (scaling with physical power) to 2 other nearby enemies, prioritising enemy Heroes."
+
+		},
+
+		"4" : {
+
+			"type" : "Third Ability",
+
+			"name" : "Hail of Arrows",
+
+			"details" : "Quill leaps back and shoots out a hail of arrow at a target area, dealing physical damage (scaling with physical power) and slowing all enemies on top."
+
+		},
+
+		"5" : {
+
+			"type" : "Ultimate",
+
+			"name" : "Piercing Arrows",
+
+			"details" : "Quill gains increased range on her basic attack and other abilities.<br><br>In addition, each basic attack or Quick Release will pierce through the enemy, dealing additional physical damage (scaling with physical power) to all enemies hit."
+
+		}
+
+	}
+
+}]
