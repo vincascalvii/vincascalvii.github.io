@@ -31,7 +31,7 @@
 
 			"name" : "Volley",
 
-			"details" : "Quill gains the ability to shoot 3 arrows instead of 1 on her basic attack and Quick Release, dealing physical damage (scaling with physical power) to 2 other nearby enemies, prioritising enemy Heroes."
+			"details" : "Quill gains the ability to shoot 3 arrows instead of 1 on her basic attack and Quick Release, dealing a percentage of her basic attack's damage to 2 other nearby enemies, prioritising enemy Heroes."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Piercing Arrows",
 
-			"details" : "Quill gains increased range on her basic attack and other abilities.<br><br>In addition, each basic attack or Quick Release will pierce through the enemy, dealing additional physical damage (scaling with physical power) to all enemies hit."
+			"details" : "Quill gains increased attack range on her basic attack and other abilities.<br><br>In addition, each basic attack or Quick Release will pierce through the enemy, dealing additional physical damage (scaling with physical power) to all enemies hit."
 
 		}
 

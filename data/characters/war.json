@@ -31,7 +31,7 @@
 
 			"name" : "Whirlwind",
 
-			"details" : "War swings his glaive in front of him, blocking all projectiles from a target direction, except for ultimate and turret. At maximum stacks of Warborne, War will weave his glaive around, blocking all projectiles from all directions instead while dealing physical damage (scaling with physical power)."
+			"details" : "War swings his glaive in front of him, blocking all projectiles from a target direction, except for ultimate and turret.<br><br>At maximum stacks of Warborne, War will weave his glaive around, blocking all projectiles from all directions instead while dealing physical damage (scaling with physical power)."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Scorching Edge",
 
-			"details" : "War enters a charging state when he drags his glaive in flame, granting himself increased movement speed during the charge.War can recast again to swing his glaive upward, dealing physical damage (scaling with physical power) to all enemies hit in a line and briefly slowing them.<br><br>If War charges for more than a few seconds, he will deal more damage and will knock the enemies up before slowing them.<br>At maximum stacks of Warborne, War does not need to charge and will immediately cast Scorching Edge."
+			"details" : "War enters a charging state when he drags his glaive in flame, gaining increased movement speed during the charge.<br><br>War can recast again to swing his glaive upward, dealing physical damage (scaling with physical power) to all enemies hit in a line and briefly slowing them.<br><br>If War charges for more than a while, he will deal more damage and will knock the enemies up before slowing them.<br><br>At maximum stacks of Warborne, War does not need to charge and will immediately cast Scorching Edge."
 
 		},
 
