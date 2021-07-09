@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Tough Skin",
+			"name" : "Primal Strength",
 
-			"details" : "Rampage gains a stack of Tough Skin every second in combat with the enemy. Each stack of Tough Skin increases his armour (maximum 10 stacks)."
+			"details" : "When Rampage is not in combat, he regenerates damage that he has recently taken from enemy Heroes. The lost health will be stored as grey health."
 
 		},
 
@@ -19,9 +19,9 @@
 
 			"type" : "First Ability",
 
-			"name" : "Ox Force",
+			"name" : "Crunch",
 
-			"details" : "Rampage spins his axe on his next 3 basic attacks, dealing physical damage (scaling with physical power) to all nearby enemies.<br><br>If the same enemy has been hit 3 times within a few seconds by Ox Force, the target will be stunned for a short duration."
+			"details" : "Rampage bites an enemy, dealing physical damage (scaling with physical power and max health) and reduces the target’s armor for a short duration."
 
 		},
 
@@ -29,9 +29,9 @@
 
 			"type" : "Second Ability",
 
-			"name" : "Triumph",
+			"name" : "Galvanise",
 
-			"details" : "Rampage lets out a powerful roar, dealing magical damage (scaling with magical power) to all nearby enemies.<br><br>If the enemies are minions and monsters, they will be feared. If the enemies are Heroes, they will be briefly slowed instead for a short while."
+			"details" : "Rampage gains a shield and his basic attacks deal additional damage based on his maximum health.<br><br>The shield and the damage boost have different duration of effect."
 
 		},
 
@@ -39,9 +39,9 @@
 
 			"type" : "Third Ability",
 
-			"name" : "Axe Slam",
+			"name" : "Relentless",
 
-			"details" : "Rampage slams his axe in a target direction, dealing physical damage (scaling with physical power and maximum health) to all enemies hit.<br><br>During Rage, Axe Slam will stun the enemies for a short duration."
+			"details" : "Rampage gains increased movement speed and his next basic attack will leap to a nearby target enemy, dealing physical damage (scaling with physical power) and reduces the target's movement speed.<br><br>If Rampage's health is below a certain threshold, E will stun the target instead."
 
 		},
 
@@ -49,9 +49,9 @@
 
 			"type" : "Ultimate",
 
-			"name" : "Unstoppable",
+			"name" : "Wild Slam",
 
-			"details" : "Rampage loses himself to his raging blood for a few seconds, reducing all incoming damage by a percentage and becoming immune to all crowd controls.<br><br>Using Rage will also break out from any form of crowd control he is currently in."
+			"details" : "Rampage throws all enemies around him in a target direction, dealing physical damage (scaling with physical power) and slowing them. If the enemies hit the wall, they will also be stunned."
 
 		}
 
