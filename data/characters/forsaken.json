@@ -21,7 +21,7 @@
 
 			"name" : "Death Hook",
 
-			"details" : "Forsaken swings up his chain then throws the hook part at a target direction, dealing physical damage (scaling with physical power) to the first enemy hit.<br><br>Q also briefly slows the target and slightly pulls the target toward him.<br><br>If the target is an enemy Hero, Forsaken will also dash toward the target."
+			"details" : "Forsaken swings up his chain then throws the hook part at a target direction, dealing physical damage (scaling with physical power) to the first enemy hit.<br><br>Death Hook also briefly slows the target and slightly pulls the target toward him. If the target is an enemy Hero, Forsaken will also dash toward the target."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Slaughter Zone",
 
-			"details" : "Forsaken selects a target area, gaining increased basic attack range and his basic attack will deal additional physical damage (scaling with physical power)."
+			"details" : "Forsaken selects a target area and while he's inside, his basic attack has increased range and deal additional physical damage (scaling with physical power)."
 
 		},
 
