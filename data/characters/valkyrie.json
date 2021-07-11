@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Holy Shield",
+			"name" : "Defensive Stance",
 
-			"details" : "When Valkyrie damages an enemy Hero, she faces the target regardless of which direction she moves.<br><br>In addition, her shield reduces all incoming damage from the front."
+			"details" : "When Valkyrie damages an enemy Hero, she faces the target regardless of which direction she moves.<br><br>In addition, her shield always reduces all incoming damage from the front."
 
 		},
 
@@ -21,7 +21,7 @@
 
 			"name" : "Impale",
 
-			"details" : "Valkyrie lunges her spear in a straight line, dealing magical damage (scaling with magical power) to all enemies hit and slowing them."
+			"details" : "Valkyrie lunges her lance in a straight line, dealing magical damage (scaling with magical power) to all enemies hit and slowing them."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Guardian Angel",
 
-			"details" : "Valkyrie quickly positions herself between a target ally Hero and the closest enemy Hero.<br><br>She then gains increased armor and magic resist while redirects a percentage of the  damage to the target ally to her instead."
+			"details" : "Valkyrie quickly positions herself between a target ally Hero and the closest enemy Hero.<br><br>She then gains increased armor and magic resist while redirects a percentage of the  damage on the target ally to her instead."
 
 		},
 
