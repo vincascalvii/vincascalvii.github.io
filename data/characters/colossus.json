@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Iron Armour",
+			"name" : "Steadfast",
 
-			"details" : "When Colossus is not in combat, his armour becomes hardened, granting him a shield based on his maximum health."
+			"details" : "Colossus does not scale on attack speed, but his basic attack deals additional physical damage (scaling with maximum health) to all enemies in a straight line."
 
 		},
 
@@ -19,9 +19,9 @@
 
 			"type" : "First Ability",
 
-			"name" : "Colossal Smash",
+			"name" : "Shield Bash",
 
-			"details" : "Colossus winds up his hammer then smashes the floor, dealing physical damage (scaling with physical power) in a cone-shaped area and slowing all enemies hit for a few seconds."
+			"details" : "Colossus bashes the enemies in a cone-shaped direction with his shield, dealing physical damage (scaling with physical power) to all enemies in the area.<br><br>Shield Bash also slightly knocks the enemies back and briefly slows them."
 
 		},
 
@@ -29,9 +29,9 @@
 
 			"type" : "Second Ability",
 
-			"name" : "Heavy Hit",
+			"name" : "Tumble",
 
-			"details" : "Colossus's next basic attack becomes a powerful slam, dealing additional physical damage (scaling with physical power and maximum health) to the target and nearby enemies.<br><br>If any of the enemies has been recently hit by Colossal Smash, Heavy Hit will deal more damage and slightly knock them back."
+			"details" : "Colossus tumbles to a target direction, gaining increased armour (scaling with armour) and magic resist (scaling with magic resist) for a duration."
 
 		},
 
@@ -39,9 +39,9 @@
 
 			"type" : "Third Ability",
 
-			"name" : "Obliterate",
+			"name" : "Valiant Charge",
 
-			"details" : "Colossus charges for a few seconds, once released, he will start spinning and hitting all nearby enemies, dealing physical damage (scaling with physical power).<br><Br>Quick cast of Obliterate will only spin once. The time taken to charge increases the spinning speed, resulting in more damage over time."
+			"details" : "Colossus charges at a target enemy, pushing the target back along the way and dealing physical damage (scaling with physical power).<br><br>If the target is knocked onto a wall, Valiant Charge will stun the target for a short duration, dealing additional physical damage (scaling with physical power)."
 
 		},
 
@@ -49,9 +49,9 @@
 
 			"type" : "Ultimate",
 
-			"name" : "Magnetic Storm",
+			"name" : "Unbreakable Wall",
 
-			"details" : "Colossus creates a magnetic field that deals magical damage (scaling with magical power), slowing all nearby enemies and preventing them from using any dashes and teleportations."
+			"details" : "Colossus holds up his shield and creates a giant wall that blocks all projectiles including ultimate, except turret blasts.<br><br>Colossus also gains increased movement speed and the ability to move through units. However, he can only use Valiant Charge during Unbreakable Wall.<br><br>Using Valiant Charge during Unbreakable Wall will have a much wider wall range and can push multiple enemies at once."
 
 		}
 

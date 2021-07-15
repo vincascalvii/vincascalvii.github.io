@@ -9,9 +9,9 @@
 
 			"type" : "Passive",
 
-			"name" : "Spirit Blade",
+			"name" : "Condemn",
 
-			"details" : "Every 3rd basic attack of Blademaster deals additional physical damage (scaling with physical power) and a Spirit Blade will spawn where Blademaster is.<br><br>Spirit Blade will stay for a while. Blademaster can pick up a Spirit Blade to gain increased movement speed that decays over time, and converts a small percentage of his next basic attack damage to true damage.<br><br>It is possible to pick up multiple Spirit Blades, but Blademaster can only use one for each basic attack (maximum 5 Spirit Blades)."
+			"details" : "Every 3rd basic attack of Blademaster condemns the target, dealing additional physical damage (scaling with physical power).<br><br>When nearby large minion, monster or enemy Hero dies, a Spirit Blade will be spawned.<br><br>Blademaster can pick up a Spirit Blade to trigger Condemn on his next basic attack.<br><br>It is possible to pick up to 3 Spirit Blades, but Blademaster can only use 1 for each basic attack."
 
 		},
 
@@ -19,9 +19,9 @@
 
 			"type" : "First Ability",
 
-			"name" : "Condemn",
+			"name" : "Double Slash",
 
-			"details" : "Blademaster&rsquo;s next basic attack within a few seconds deals additional physical damage (scaling with physical power).<br><br>When Blademaster kills an enemy with Condemn, half of the mana cost and cooldowns will be refunded.<br><br>In addition, a Spirit Blade will spawn on top of that unit."
+			"details" : "Blademaster&rsquo;s next basic attack within a few seconds hits the target twice.<br><br>When Blademaster kills an enemy with Double Slash, half of the mana cost and cooldowns will be refunded. >In addition, a Spirit Blade will spawn on top of that unit."
 
 		},
 
@@ -31,7 +31,7 @@
 
 			"name" : "Blade Work",
 
-			"details" : "Blademaster summons a Spirit Blade in a target location. Within a short while, Blademaster gains increased movement speed towards all the present Spirit Blades."
+			"details" : "Blademaster summons a Spirit Blade in a target location. Within a short while, Blademaster gains increased movement speed towards nearby Spirit Blades."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Blade Surge",
 
-			"details" : "Blademaster dashes to a Spirit Blade. Within a few seconds, Blademaster's next basic attack will dash to the target enemy, dealing physical damage (scaling with physical power) and granting himself increased attack speed for the next 3 basic attacks.<br><br>The attack speed boost lasts for a short while or until all 3 basic attacks are used."
+			"details" : "Blademaster dashes to a Spirit Blade. Within a few seconds, Blademaster's next basic attack will dash to the target enemy and grant himself increased attack speed for the next 3 basic attacks.<br><br>The attack speed boost lasts for a short while or until all 3 basic attacks are used."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Blade Storm",
 
-			"details" : "Blademaster briefly channels then dashes to a target location, dealing physical damage (scaling with physical power) to all enemies within the path.<br><br>In addition, all the Spirit Blades will return to him during the dash, dealing physical damage (scaling with physical power) to all enemies in the path and greatly slowing them for a very short duration."
+			"details" : "Blademaster dashes to a target location, drawing all the nearby Spirit Blades to him.<br><br>Each Spirit Blade will inflict Condemn as true damage to all enemies hit and greatly slow them for a very short duration.<br><br>If Blademaster is currently holding at least 1 Spirit Blade, the initial dash will consume all the Spirit Blades on him to inflict Condemn.<br><br>Blade Storm's true damage only takes Condemn's additional damage into account, not the basic attack's damage."
 
 		}
 
