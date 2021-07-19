@@ -1,60 +1,12 @@
 /* ======================================================================
 
-	CHARACTERS CSS
+	HEADING
 
 ====================================================================== */
 
 .heading {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-transform: uppercase;
-}
-
-/* ======================================================================
-
-	BREADCRUMB
-
-====================================================================== */
-
-.breadcrumb {
-	list-style: none;
-	display: flex;
-	font-size: 1.6rem;
-	padding: 0;
-}
-
-.breadcrumb .arrow {
-	margin: 0 15px;
-}
-
-/* ======================================================================
-
-	CHARACTERS
-
-====================================================================== */
-
-.characters {
-	justify-content: flex-start;
-	flex-wrap: wrap;
-}
-
-.characters .block {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #808080;
-	color: #fff;
-	width: 18%;
-	height: 400px;
-	font-size: 24px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin: 0 2% 20px 0;
-	border-radius: 5px;
-	transition: .2s ease-in-out;
-}
-
-.characters .block:hover {
-	background-color: #a5a5a5;
 }
 
 /* ======================================================================
@@ -73,7 +25,7 @@
 
 .ability .left,
 .ability .right {
-	width: 50%;
+	width: 100%;
 }
 
 .ability .thumbnails {
@@ -102,8 +54,8 @@
 	left: 0;
 	display: block;
 	background-color: #eee;
-	width: 100%;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	transition: .2s ease-in-out;
 }
 
@@ -129,7 +81,7 @@
 
 .ability .block .border {
 	position: absolute;
-	top: 120px;
+	top: 65px;
 	width: 25px;
 	height: 25px;
     display: flex;
@@ -162,8 +114,8 @@
 .ability .bar {
 	position: absolute;
 	bottom: 15px;
-	left: -100px;
-	width: 100%;
+	left: -20px;
+    width: calc(100% - 20px);
 	height: 2px;
 	background-color: #eee;
 	z-index: -1;

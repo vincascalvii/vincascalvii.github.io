@@ -21,7 +21,7 @@
 
 			"name" : "Decimate",
 
-			"details" : "Warmonger swings down his glaive in a target direction, dealing physical damage (scaling with physical power) to all enemies hit.<br><br>At maximum stacks of Warborne, Decimate will send out a flaming wave in the same target direction instead, reaching further and dealing more damage."
+			"details" : "Warmonger gains increased movement speed for a duration and his next basic attack deals additional physical damage (scaling with physical power) to the target.<br><br>At maximum stack of Warborne, Decimate deals additional physical damage based on the target’s maximum health."
 
 		},
 
@@ -29,9 +29,9 @@
 
 			"type" : "Second Ability",
 
-			"name" : "Whirlwind",
+			"name" : "War Cry",
 
-			"details" : "Warmonger swings his glaive in front of him, blocking all projectiles from a target direction, except for ultimate and turret.<br><br>At maximum stacks of Warborne, Warmonger will weave his glaive around, blocking all projectiles from all directions instead while dealing physical damage (scaling with physical power)."
+			"details" : "Warmonger rallies, increasing his and nearby allies’ physical power over a duration.<br><br>At maximum stacks of Warborne, War Cry also increases Warmonger’s armour penetration."
 
 		},
 
@@ -41,7 +41,7 @@
 
 			"name" : "Scorching Edge",
 
-			"details" : "Warmonger enters a charging state when he drags his glaive in flame, gaining increased movement speed during the charge.<br><br>Warmonger can recast again to swing his glaive upward, dealing physical damage (scaling with physical power) to all enemies hit in a line and briefly slowing them.<br><br>If Warmonger charges for more than a while, he will deal more damage and will knock the enemies up before slowing them.<br><br>At maximum stacks of Warborne, Warmonger does not need to charge and will immediately cast Scorching Edge."
+			"details" : "Warmonger swings up his glaive to send out a flaming wave in a target direction, dealing physical damage (scaling with physical power) to all enemies hit and slowing them for a short duration.<br><br>At maximum stacks of Warborne, Scorching Edge’s range and slow effect increase."
 
 		},
 
@@ -51,7 +51,7 @@
 
 			"name" : "Arena of Blood",
 
-			"details" : "Warmonger picks a target enemy Hero, then slams down his glaive and creates an arena around him. Inside the arena, he instantly gains maximum stacks of Warborne.<br><br>Enemy heroes who try to walk out or into the arena will take physical damage (scaling with physical power) and become greatly slowed for a short duration."
+			"details" : "Warmonger picks a target enemy Hero, then slams down his glaive and creates an arena around him. Inside the arena, he instantly gains maximum stacks of Warborne.<br><br>Enemy heroes cannot walk out or into the arena.<br><br>Whoever gets out of the arena before it ends while the other party is still alive will be marked as Coward. Coward takes increased damage from the winner of the duel for a duration.<br><br>If Warmonger wins the duel, he will activate Battle Cry or reset its duration if Battle Cry is already active."
 
 		}
 
