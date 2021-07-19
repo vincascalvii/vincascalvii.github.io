@@ -1,5 +1,23 @@
 /* ======================================================================
 
+	BREADCRUMB
+
+====================================================================== */
+
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.6rem;
+	padding: 0;
+}
+
+.breadcrumb .arrow {
+	margin: 0 15px;
+}
+
+/* ======================================================================
+
 	HEADING
 
 ====================================================================== */
@@ -42,7 +60,7 @@
 	flex-wrap: wrap;
 	background-color: transparent;
 	width: 100px;
-	height: 150px;
+	height: 95px;
 	padding: 0;
 	margin-right: 20px;
 	border: none;
