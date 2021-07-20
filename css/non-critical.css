@@ -1,0 +1,25 @@
+/* ================================================================
+
+	FOOTER - CONTACT
+
+================================================================ */
+
+.contact .link .icon {
+	font-size: 8rem;
+	margin-top: 20px;
+	transition: .2s ease-in-out;
+}
+
+.contact .link .icon * {
+	fill: url(#instagram-color);
+}
+
+.contact .link .icon:hover {
+	filter: opacity(.8);
+}
+
+.contact .copyright {
+	color: #727272;
+	font-size: 1.6rem;
+	margin-top: 240px;
+}

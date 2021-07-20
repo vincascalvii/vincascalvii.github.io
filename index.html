@@ -10,20 +10,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<!-- VIEWPORT -->
-	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=5.0,width=device-width">
 
 	<!-- THEME COLOUR -->
 	<meta name="theme-color" content="#333">
 
 	<!-- BASE URL -->
-	<!-- <base href="https://vincascalvii.github.io/"> -->
+	<base href="https://vincascalvii.github.io/">
 
 	<!-- TITLE -->
 	<title>Calvin Lam - Web Designer and Developer</title>
 
 	<!-- META DATA -->
-	<meta name="description" content="Welcome to Calvin's space. Please feel free to browse all the story and character designs. Remember to leave a comment if you enjoy your journey.">
-	<meta name="keywords" content="vincas, vincas calvii, calvin lam, web design, web developer, character design, story design, pokemon">
+	<meta name="description" content="Welcome to Calvin's space. Please feel free to browse all the projects and leave a comment if you enjoy your journey.">
 	<meta name="author" content="Calvin Lam">
 
 	<!-- FONTS -->
@@ -32,22 +31,14 @@
 	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/others/fonts.css?version1">
 
-	<!-- SPLIDE -->
-	<link rel="stylesheet" type="text/css" href="css/others/splide-core.min.css">
+	<!-- CRITICAL CSS -->
+	<link rel="stylesheet" type="text/css" href="css/critical.css?version1">
 
-	<!-- MAIN CSS ( prioritise file loading based on screen width ) -->
-	<link rel="stylesheet" type="text/css" href="css/main/main.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1600px)" href="css/main/main-1600.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px)" href="css/main/main-1350.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px)" href="css/main/main-992.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="css/main/main-767.css?version1">
-
-	<!-- HOME PAGE CSS -->
-	<link rel="stylesheet" type="text/css" href="css/home/home.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1600px)" href="css/home/home-1600.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1350px)" href="css/home/home-1350.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 992px)" href="css/home/home-992.css?version1">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 767px)" href="css/home/home-767.css?version1">
+	<!-- NON-CRITICAL CSS (ASYNC) -->
+	<link rel="preload" href="css/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="css/non-critical.css">
+	</noscript>
 
 	<!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -89,25 +80,9 @@
 
 
 
-	<!-- HEADER -->
-	<header class="header">
-		<div class="container flex">
-
-			<a href="" class="logo" aria-label="Header return to home page">Calvin.</a>
-
-			<div class="trigger">
-				<i class="fas fa-ellipsis-v icon"></i>
-			</div>
-
-		</div>
-	</header>
-
-
-
 	<main>
 
-		<!-- HERO BANNER -->
-		<section class="hero">
+		<section id="intro" class="intro">
 			<div class="container">
 				
 				<h1 class="title">Hi, I'm<span>Calvin.</span></h1>
@@ -119,11 +94,6 @@
 					<i class="fas fa-circle dot"></i>
 					Artist
 				</p>
-
-				<picture>
-					<source data-srcset="" type="image/webp">
-					<img data-src="" src="" class="lazyload" alt="">
-				</picture>
 
 				<div class="explore text-center">
 					<p class="text">Explore</p>
@@ -138,201 +108,79 @@
 
 
 
-		<section id="web-design" class="section relative web-design">
+		<section id="projects" class="projects">
 			<div class="container">
-				 
-				<p class="sub-heading">
-					<span class="number">01.</span>
-					<span class="text">Projects</span>
-				</p>
-				<h2 class="heading">Web Design.</h2>
-				<div class="heading-bar"></div>
 
-				<div class="content">
-					<p>A website is the place where people can know more about you and your business. In my projects, I focus on the simplest user interface to bring the best user experience possible for the visitors. I love creating things that allow the users to find what they are looking for straight away.</p>
-					<p>Instead of words alone, how about we dive into the works that I've done?</p>
-				</div>
-
-				<div class="splide">
-					<div class="splide__track">
-						<div class="splide__list">
-							<div class="splide__slide block">
-								<h3 class="name">Car Marketplace</h3>
-							</div>
-							<div class="splide__slide block">
-								<h3 class="name">Finance &amp; Insurance</h3>
-							</div>
-							<div class="splide__slide block">
-								<h3 class="name">Online Magazine</h3>
-							</div>
-							<div class="splide__slide block">
-								<h3 class="name">Restaurant</h3>
-							</div>
-						</div>
+				<a href="/characters" class="block" aria-label="Go to Valhalla">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Valhalla</h2>
+						<p class="desc">Character Design</p>
 					</div>
 				</div>
 
-				<a href="/projects" class="button" aria-label="Explore Pokémon">View all projects</a>
-
-				<div class="explore text-center">
-					<a href="#pokemon" class="border" aria-label="Scroll down to Pokémon">
-						<i class="fas fa-chevron-down arrow"></i>
-					</a>
-					<div class="line"></div>
+				<a href="/pokemon" class="block" aria-label="Go to Storm &amp; Quake">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Storm &amp; Quake</h2>
+						<p class="desc">Pokémon Design</p>
+					</div>
 				</div>
 
+				<a href="/story" class="block" aria-label="Go to Freedom Cry">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Freedom Cry</h2>
+						<p class="desc">Story Writing</p>
+					</div>
+				</div>
+
+				<a href="/drive" class="block" aria-label="Go to Drive">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Drive</h2>
+						<p class="desc">Car Marketplace</p>
+					</div>
+				</div>
+
+				<a href="/shield" class="block" aria-label="Go to Shield">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Shield</h2>
+						<p class="desc">Insurance Firm</p>
+					</div>
+				</div>
+
+				<a href="/connect" class="block" aria-label="Go to Connect">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Connect</h2>
+						<p class="desc">Online Magazine</p>
+					</div>
+				</div>
+
+				<a href="/barbecue" class="block" aria-label="Go to Barbecue">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Barbecue</h2>
+						<p class="desc">BBQ Restaurant</p>
+					</div>
+				</div>
+
+				<a href="/blog" class="block" aria-label="Go to Curious">
+					<div class="icon"></div>
+					<div class="content">
+						<h2 class="name">Curious</h2>
+						<p class="desc">Blog &amp; Tips</p>
+					</div>
+				</div>
+						
 			</div>
 		</section>
 
 
 
-		<section id="pokemon" class="section relative pokemon">
-			<div class="container flex">
-				
-				<div class="content">
-					<p class="sub-heading">
-						<span class="number">02.</span>
-						<span class="text">Pokémon</span>
-					</p>
-					<h2 class="heading">Storm &amp; Quake.</h2>
-					<div class="heading-bar"></div>
-					<p>Pokémon has been one of my most favourite franchise throughout my childhood and it's something that I, as a designer, must give it a go. Adventures in Pokémon Storm and Pokémon Quake will take place in a new region named Newzar.</p>
-					<p>Rich in nature and with powerful trainers across the land, Newzar is a region of many tales and legends. Please feel free to explore the designs of both Pokémon, trainers and Gym leaders.</p>
-					<a href="/pokemon" class="button" aria-label="Explore Pokémon">Explore the region</a>
-				</div>
-
-			</div>
-
-			<div class="explore text-center">
-				<a href="#story" class="border" aria-label="Scroll down to Story">
-					<i class="fas fa-chevron-down arrow"></i>
-				</a>
-				<div class="line"></div>
-			</div>
-
-		</section>
-
-
-		<section id="story" class="section relative story">
-			<div class="container text-center">
-				
-				<p class="sub-heading">
-					<span class="number">03.</span>
-					<span class="text">Story &amp; Characters</span>
-				</p>
-				<h2 class="heading">Freedom Cry.</h2>
-				<div class="heading-bar"></div>
-
-				<div class="content">
-					<p>Freedom Cry is a fictional story that takes place in Valhalla, a beautiful world with many fantasy and mythological creatures. The story focuses on the affairs between different kingdoms and races.</p>
-					<p>This project has been in my mind since high school and has gone through countless of reworks as time goes by. Please feel free to enjoy the beautiful fantasy through the story or the character designs.</p>
-				</div>
-
-				<div class="buttons-container">
-					<a href="/story" class="button button-story" aria-label="Explore the story">Read the story</a>
-					<a href="/characters" class="button button-characters" aria-label="Explore the characters">View the characters</a>
-				</div>
-
-				<div class="explore text-center">
-					<a href="#blog" class="border" aria-label="Scroll down to Blog">
-						<i class="fas fa-chevron-down arrow"></i>
-					</a>
-					<div class="line"></div>
-				</div>
-
-			</div>
-		</section>
-
-
-
-		<section id="blog" class="section relative blog">
-			<div class="container text-center">
-				
-				<p class="sub-heading">
-					<span class="number">04.</span>
-					<span class="text">Articles</span>
-				</p>
-				<h2 class="heading">
-					<span class="heading-bar heading-bar-left"></span>
-					<span>Blog.</span>
-					<span class="heading-bar heading-bar-right"></span>
-				</h2>
-
-				<div class="content">
-					<h3 class="category text-left">Coding</h3>
-					<ul class="list list-coding text-left">
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-					</ul>
-
-					<h3 class="category text-left">Drawing</h3>
-					<ul class="list list-drawing text-left">
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-					</ul>
-
-					<h3 class="category text-left">Gaming</h3>
-					<ul class="list list-gaming text-left">
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="" aria-label="">
-								<i class="fas fa-box icon"></i>
-								<span>Learn Flexbox (CSS Flexible Box) in 15 minutes.</span>
-								<i class="fas fa-chevron-right arrow float-right"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="explore text-center">
-					<a href="#contact" class="border" aria-label="Scroll down to Contact">
-						<i class="fas fa-chevron-down arrow"></i>
-					</a>
-					<div class="line"></div>
-				</div>
-
-			</div>
-		</section>
-
-
-		<footer id="contact" class="section contact">
+		<footer id="contact" class="contact">
 			<div class="container text-center">
 				
 				<p class="sub-heading">
@@ -367,13 +215,7 @@
 	<script src="js/fontawesome/fontawesome.min.js" defer></script>
 
 	<!-- LAZYSIZES / LAZY LOADING -->
-	<script type="text/javascript" src="js/lazysizes/lazysizes.min.js"></script>
-
-	<!-- SPLIDE -->
-	<script type="text/javascript" src="js/splide/splide.min.js"></script>
-
-	<!-- CUSTOM -->
-	<script type="text/javascript" src="js/general/home.js"></script>
+	<script src="js/lazysizes/lazysizes.min.js"></script>
 
 	<script type="text/javascript">
 		document.getElementById('copyright-year').innerHTML = new Date().getFullYear();
