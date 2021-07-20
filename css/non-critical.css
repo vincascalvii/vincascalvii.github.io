@@ -39,14 +39,14 @@
 }
 
 .projects .block .name {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	margin: 0;
 }
 
 .projects .block .desc {
 	color: #727272;
 	font-size: 1.4rem;
-	margin: 8px 0 0;
+	margin: 5px 0 0;
 }
 
 /* ================================================================
