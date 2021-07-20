@@ -18,12 +18,14 @@
 	align-items: center;
 	text-transform: uppercase;
 	color: #333;
-	margin-bottom: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
 }
 
 .projects .block .icon {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	background-color: #f5f5fb;
 	margin-right: 20px;
 	border-radius: 5px;
@@ -34,7 +36,7 @@
 	flex-direction: column;
 	justify-content: center;
 	flex: 1;
-	height: 60px;
+	height: 80px;
 }
 
 .projects .block .name {
@@ -74,7 +76,9 @@
 }
 
 .contact .link .icon {
-	font-size: 8rem;
+	width: 80px;
+	height: 80px;
+	margin-left: -15px;
 	transition: .2s ease-in-out;
 }
 
