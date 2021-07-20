@@ -16,7 +16,6 @@
 .projects .block {
 	display: flex;
 	align-items: center;
-	text-decoration: none;
 	text-transform: uppercase;
 	color: #333;
 	margin-bottom: 40px;
