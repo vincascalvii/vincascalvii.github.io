@@ -30,7 +30,7 @@ body {
 	font-family: "Poppins", Helvetica, Arial, sans-serif;
 	background-color: #fff;
 	color: #333;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin: 0;
 }
 
@@ -41,7 +41,8 @@ body {
 ================================================================ */
 
 .container {
-	width: 1400px;
+	width: 100%;
+	padding: 0 20px;
 	margin: 0 auto;
 }
 
@@ -52,24 +53,26 @@ body {
 ================================================================ */
 
 .intro {
+	display: flex;
+    align-items: center;
 	width: 100vw;
 	height: 100vh;
 }
 
 .intro .title {
-	font-size: 8rem;
-	line-height: 1.2;
-	margin: 80px 0 0;
+	font-size: 3rem;
+	margin: 0;
 }
 
-.intro .title span {
+.intro .title .highlight {
 	display: block;
-	font-size: 15rem;
+	font-size: 7rem;
+	margin-left: -5px;
 	text-transform: uppercase;
-	margin-left: -10px;
 }
 
 .intro .occupation {
+	display: flex;
 	align-items: center;
 	text-transform: uppercase;
 }
@@ -88,6 +91,7 @@ body {
 
 .explore {
 	margin-top: 60px;
+	text-align: center;
 }
 
 .explore .text {

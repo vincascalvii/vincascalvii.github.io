@@ -1,8 +1,60 @@
 /* ================================================================
 
+	PROJECTS
+
+================================================================ */
+
+.projects .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.projects .block {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.projects .block .icon {
+	width: 60px;
+	height: 60px;
+	background-color: #f5f5fb;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.projects .block .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+	height: 60px;
+}
+
+.projects .block .name {
+	margin: 0;
+}
+
+.projects .block .desc {
+	color: #727272;
+	margin: 10px 0 0;
+}
+
+/* ================================================================
+
 	FOOTER - CONTACT
 
 ================================================================ */
+
+.contact .heading {
+	font-size: 3rem;
+}
+
+.contact .sub-heading {
+	font-size: 2rem;
+}
 
 .contact .link .icon {
 	font-size: 8rem;
