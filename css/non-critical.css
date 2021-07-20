@@ -4,6 +4,10 @@
 
 ================================================================ */
 
+.projects {
+	padding-top: 30px;
+}
+
 .projects .container {
 	display: flex;
 	flex-direction: column;
