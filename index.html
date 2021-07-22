@@ -67,9 +67,9 @@
 
 				<div class="occupation">
 					<span>Developer</span>
-					<i class="fas fa-circle dot"></i>
+					<span class="dot">&bull;</span>
 					<span>Designer</span>
-					<i class="fas fa-circle dot"></i>
+					<span class="dot">&bull;</span>
 					<span>Artist</span>
 				</div>
 
@@ -134,7 +134,13 @@
 				</a>
 
 				<a href="/drive" class="block" aria-label="Go to Drive">
-					<div class="icon temp"></div>
+					<picture>
+						<source data-srcset="/img/drive-80x80.webp 1x, /img/drive-160x160.webp 2x, /img/drive-240x240.webp 3x" type="image/webp">
+						<source data-srcset="/img/drive-80x80.jpg 1x, /img/drive-160x160.jpg 2x, /img/drive-240x240.jpg 3x" type="image/jpg">
+						<img data-src="/img/drive-80x80.jpg" 
+							 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+							 class="icon lazyload" alt="Drive logo">
+					</picture>
 					<div class="content">
 						<h2 class="name">Drive</h2>
 						<p class="desc">Car Marketplace</p>

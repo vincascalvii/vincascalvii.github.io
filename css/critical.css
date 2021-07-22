@@ -59,7 +59,8 @@ a {
 
 .intro .occupation .dot {
 	display: inline-block;
-	font-size: 1rem;
+	font-size: 3rem;
+    line-height: 2rem;
 	margin: 0 15px;
 }
 
