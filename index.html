@@ -15,9 +15,6 @@
 	<!-- THEME COLOUR -->
 	<meta name="theme-color" content="#333">
 
-	<!-- BASE URL -->
-	<base href="https://vincascalvii.github.io/">
-
 	<!-- TITLE -->
 	<title>Calvin Lam - Web Designer and Developer</title>
 
@@ -26,18 +23,18 @@
 	<meta name="author" content="Calvin Lam">
 
 	<!-- FONTS -->
-	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
-	<link rel="preload" as="font" type="font/woff2" href="fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css?version1">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-regular.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-500.woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-v12-latin-700.woff2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/fonts.css?version1">
 
 	<!-- CRITICAL CSS -->
-	<link rel="stylesheet" type="text/css" href="css/critical.css?version1">
+	<link rel="stylesheet" type="text/css" href="/css/critical.css?version1">
 
 	<!-- NON-CRITICAL CSS (ASYNC) -->
-	<link rel="preload" href="css/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="/css/non-critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript>
-		<link rel="stylesheet" href="css/non-critical.css">
+		<link rel="stylesheet" href="/css/non-critical.css">
 	</noscript>
 
     <!-- FACEBOOK OPENGRAPH -->
@@ -95,7 +92,13 @@
 			<div class="container">
 
 				<a href="/pantheon" class="block" aria-label="Go to Pantheon">
-					<div class="icon"></div>
+					<picture>
+						<source data-srcset="/img/pantheon-80x80.webp 1x, /img/pantheon-160x160.webp 2x, /img/pantheon-240x240.webp 3x" type="image/webp">
+						<source data-srcset="/img/pantheon-80x80.jpg 1x, /img/pantheon-160x160.jpg 2x, /img/pantheon-240x240.jpg 3x" type="image/jpg">
+						<img data-src="/img/pantheon-80x80.jpg" 
+							 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+							 class="icon lazyload" alt="Pantheon logo">
+					</picture>
 					<div class="content">
 						<h2 class="name">Pantheon</h2>
 						<p class="desc">Character Design</p>
@@ -103,7 +106,7 @@
 				</a>
 
 				<a href="/legend" class="block" aria-label="Go to Legend">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Legend</h2>
 						<p class="desc">Pokémon Design</p>
@@ -111,7 +114,7 @@
 				</a>
 
 				<a href="/freedom" class="block" aria-label="Go to Freedom">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Freedom</h2>
 						<p class="desc">Story Writing</p>
@@ -119,7 +122,7 @@
 				</a>
 
 				<a href="/drive" class="block" aria-label="Go to Drive">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Drive</h2>
 						<p class="desc">Car Marketplace</p>
@@ -127,7 +130,7 @@
 				</a>
 
 				<a href="/shield" class="block" aria-label="Go to Shield">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Shield</h2>
 						<p class="desc">Insurance Firm</p>
@@ -135,7 +138,7 @@
 				</a>
 
 				<a href="/connect" class="block" aria-label="Go to Connect">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Connect</h2>
 						<p class="desc">Online Magazine</p>
@@ -143,7 +146,7 @@
 				</a>
 
 				<a href="/feast" class="block" aria-label="Go to Feast">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Feast</h2>
 						<p class="desc">BBQ Restaurant</p>
@@ -151,7 +154,7 @@
 				</a>
 
 				<a href="/kindred" class="block" aria-label="Go to Kindred">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Kindred</h2>
 						<p class="desc">Sound Application</p>
@@ -159,7 +162,7 @@
 				</a>
 
 				<a href="/blog" class="block" aria-label="Go to Curious">
-					<div class="icon"></div>
+					<div class="icon temp"></div>
 					<div class="content">
 						<h2 class="name">Curious</h2>
 						<p class="desc">Blog &amp; Tips</p>
@@ -204,6 +207,9 @@
 	<script type="text/javascript">
 		document.getElementById('copyright-year').innerHTML = new Date().getFullYear();
 	</script>
+
+	<!-- LAZYSIZES / LAZY LOADING -->
+	<script src="/js/lazysizes/lazysizes.min.js"></script>
 
 </body>
 
