@@ -115,6 +115,10 @@
 		padding-bottom: 40px;
 	}
 
+	.projects .block .icon {
+		margin-right: 0;
+	}
+
 	.projects .block .content {
 		text-align: center;
 	}
