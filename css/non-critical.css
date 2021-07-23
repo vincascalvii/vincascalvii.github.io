@@ -99,3 +99,84 @@
 	font-size: 1.6rem;
 	margin-top: 60px;
 }
+
+/* ================================================================
+
+	RESPONSIVE
+
+================================================================ */
+
+@media only screen and (min-width: 768px) {
+
+	.projects .container {
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.projects .block {
+		flex-direction: column;
+		width: 33%;
+		padding-bottom: 40px;
+	}
+
+	.projects .block .content {
+		text-align: center;
+	}
+
+	.contact .container {
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (min-width: 1366px) {
+
+	.projects .block {
+		width: calc(33% - 15px);
+		padding: 40px 0;
+		border-radius: 10px;
+		transition: .2s ease-in-out;
+	}
+
+	.projects .block:hover {
+		background-color: #f5f5fb;
+	}
+
+	.projects .block.block-mid {
+		margin: 0 20px 20px;
+	}
+
+	.projects .block .icon {
+		width: 160px;
+		height: 160px;
+	}
+
+	.projects .block .name {
+		font-size: 2.6rem;
+		margin: 20px 0 5px;
+	}
+
+	.projects .block .desc {
+		font-size: 1.6rem;
+	}
+
+	.contact {
+		margin-top: 120px;
+	}
+
+	.contact .sub-heading {
+		font-size: 2.4rem;
+	}
+
+	.contact .heading {
+		font-size: 4rem;
+	}
+
+	.contact .link .icon {
+		width: 160px;
+    	height: 160px;
+	}
+
+}

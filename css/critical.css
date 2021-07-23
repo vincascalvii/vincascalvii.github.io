@@ -18,7 +18,9 @@ body {
 	background-color: #fff;
 	color: #333;
 	font-size: 1.6rem;
+	width: 100vw;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 a {
@@ -34,7 +36,6 @@ a {
 .intro {
 	display: flex;
     align-items: center;
-	width: 100vw;
 	height: 100vh;
 }
 
@@ -93,4 +94,45 @@ a {
 	height: 200px;
 	margin: 0 auto;
 	border-right: 1px dashed #333;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.container {
+		width: 700px;
+		padding: 0;
+	}
+
+	.intro .container {
+		text-align: center;
+	}
+
+	.intro .occupation {
+		flex-wrap: wrap;
+	}
+
+}
+
+@media only screen and (min-width: 1366px) {
+
+	body {
+		font-size: 1.8rem;
+	}
+
+	.container {
+		width: 1200px;
+	}
+
+	.intro .title {
+		font-size: 6rem;
+	}
+
+	.intro .title .highlight {
+		font-size: 12rem;
+	}
+
+	.intro .occupation {
+		font-size: 2.4rem;
+	}
+
 }
