@@ -108,7 +108,7 @@ a {
 	}
 
 	.intro .occupation {
-		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 }

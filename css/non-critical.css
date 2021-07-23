@@ -83,15 +83,10 @@
 	width: 80px;
 	height: 80px;
 	margin-left: -15px;
-	transition: .2s ease-in-out;
 }
 
 .contact .link .icon * {
 	fill: url(#instagram-color);
-}
-
-.contact .link .icon:hover {
-	filter: opacity(.8);
 }
 
 .contact .copyright {
@@ -128,6 +123,10 @@
 		text-align: center;
 	}
 
+	.contact .link .icon {
+		margin-left: 0;
+	}
+
 }
 
 
@@ -136,6 +135,7 @@
 	.projects .block {
 		width: calc(33% - 15px);
 		padding: 40px 0;
+		border: none;
 		border-radius: 10px;
 		transition: .2s ease-in-out;
 	}
@@ -177,6 +177,11 @@
 	.contact .link .icon {
 		width: 160px;
     	height: 160px;
+    	transition: .2s ease-in-out;
+	}
+
+	.contact .link .icon:hover {
+		opacity: .7;
 	}
 
 }
