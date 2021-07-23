@@ -148,7 +148,13 @@
 				</a>
 
 				<a href="/shield" class="block" aria-label="Go to Shield">
-					<div class="icon temp"></div>
+					<picture>
+						<source data-srcset="/img/shield-80x80.webp 1x, /img/shield-160x160.webp 2x, /img/shield-240x240.webp 3x" type="image/webp">
+						<source data-srcset="/img/shield-80x80.jpg 1x, /img/shield-160x160.jpg 2x, /img/shield-240x240.jpg 3x" type="image/jpg">
+						<img data-src="/img/shield-80x80.jpg" 
+							 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+							 class="icon lazyload" alt="Shield logo">
+					</picture>
 					<div class="content">
 						<h2 class="name">Shield</h2>
 						<p class="desc">Insurance Firm</p>
