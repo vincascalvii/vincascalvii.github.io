@@ -1,53 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>https://vincascalvii.github.io/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://vincascalvii.github.io/pantheon/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
+		<lastmod>2021-12-06T08:22:32+00:00</lastmod>
+		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>https://vincascalvii.github.io/legend/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://vincascalvii.github.io/freedom/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://vincascalvii.github.io/drive/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://vincascalvii.github.io/shield/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://vincascalvii.github.io/connect/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://vincascalvii.github.io/flame/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
+		<lastmod>2021-12-06T08:19:53+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://vincascalvii.github.io/kindred/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
+		<lastmod>2021-12-04T15:40:41+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://vincascalvii.github.io/curious/</loc>
-		<lastmod>2021-07-26</lastmod>
-		<priority>0.8</priority>
+		<loc>https://vincascalvii.github.io/legend/detail?no=001</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=002</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=003</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=004</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=005</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=006</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=007</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=008</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/legend/detail?no=009</loc>
+		<lastmod>2021-12-05T12:10:44+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://vincascalvii.github.io/freedom/chapter-1/</loc>
+		<lastmod>2021-12-06T08:19:53+00:00</lastmod>
+		<priority>0.64</priority>
 	</url>
 </urlset>
