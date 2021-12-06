@@ -54,6 +54,11 @@
 	margin: 5px 0 0;
 }
 
+.projects .block.disabled {
+	opacity: .5;
+	pointer-events: none;
+}
+
 /* ================================================================
 
 	FOOTER - CONTACT
@@ -146,6 +151,15 @@
 
 	.projects .block:hover {
 		background-color: #f5f5fb;
+	}
+
+	.projects .block.disabled {
+		opacity: .5;
+		cursor: default;
+	}
+
+	.projects .block.disabled:hover {
+		background-color: #fff;
 	}
 
 	.projects .block.block-mid {
